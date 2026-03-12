@@ -1,0 +1,84 @@
+{
+"set_info": {
+"title": "Geography",
+"level": "easy",
+"genre": "Geography"
+},
+"questions": [
+{
+"question": "Which is the largest ocean on Earth?",
+"options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+"answer_index": 3
+},
+{
+"question": "Which continent is known as the 'Dark Continent'?",
+"options": ["Asia", "Africa", "South America", "Australia"],
+"answer_index": 1
+},
+{
+"question": "What is the capital city of France?",
+"options": ["London", "Berlin", "Paris", "Madrid"],
+"answer_index": 2
+},
+{
+"question": "Which is the longest river in the world?",
+"options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+"answer_index": 1
+},
+{
+"question": "Which country is also a continent?",
+"options": ["Canada", "Australia", "Russia", "Brazil"],
+"answer_index": 1
+},
+{
+"question": "Mount Everest is located in which mountain range?",
+"options": ["Andes", "Rockies", "Alps", "Himalayas"],
+"answer_index": 3
+},
+{
+"question": "Which is the smallest continent by land area?",
+"options": ["Europe", "Antarctica", "Australia", "South America"],
+"answer_index": 2
+},
+{
+"question": "The imaginary line that divides the Earth into Northern and Southern Hemispheres is called the:",
+"options": ["Prime Meridian", "Equator", "Tropic of Cancer", "Arctic Circle"],
+"answer_index": 1
+},
+{
+"question": "Which country is known as the 'Land of the Rising Sun'?",
+"options": ["China", "South Korea", "Japan", "Thailand"],
+"answer_index": 2
+},
+{
+"question": "In which continent is the Sahara Desert located?",
+"options": ["Asia", "Africa", "Australia", "North America"],
+"answer_index": 1
+},
+{
+"question": "Which of these countries is located in South America?",
+"options": ["Mexico", "Brazil", "Spain", "Egypt"],
+"answer_index": 1
+},
+{
+"question": "What is the capital of Italy?",
+"options": ["Venice", "Florence", "Naples", "Rome"],
+"answer_index": 3
+},
+{
+"question": "Which pole is located in Antarctica?",
+"options": ["North Pole", "South Pole", "East Pole", "West Pole"],
+"answer_index": 1
+},
+{
+"question": "Which large island is located off the southeast coast of Africa?",
+"options": ["Greenland", "Sri Lanka", "Madagascar", "Tasmania"],
+"answer_index": 2
+},
+{
+"question": "Which ocean lies between the Americas and Europe/Africa?",
+"options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Southern Ocean"],
+"answer_index": 2
+}
+]
+}

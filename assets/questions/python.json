@@ -1,0 +1,84 @@
+{
+"set_info": {
+"title": "Python",
+"level": "easy",
+"genre": "Computer Science"
+},
+"questions": [
+{
+"question": "Which keyword is used to create a function in Python?",
+"options": ["def", "function", "fun", "define"],
+"answer_index": 0
+},
+{
+"question": "What is the correct file extension for Python files?",
+"options": [".python", ".pt", ".pyt", ".py"],
+"answer_index": 3
+},
+{
+"question": "Which of these is used to output text to the console?",
+"options": ["output()", "print()", "log()", "display()"],
+"answer_index": 1
+},
+{
+"question": "Which symbol is used to start a comment in Python code?",
+"options": ["//", "/*", "#", "--"],
+"answer_index": 2
+},
+{
+"question": "How do you create a variable with the integer value 5?",
+"options": ["x = 5", "int x = 5", "variable x = 5", "x := 5"],
+"answer_index": 0
+},
+{
+"question": "Which data type is used to store a sequence of characters?",
+"options": ["int", "float", "str", "boolean"],
+"answer_index": 2
+},
+{
+"question": "Which operator is used for exponentiation (power)?",
+"options": ["**", "^", "exp", "^^"],
+"answer_index": 0
+},
+{
+"question": "How do you start a 'for' loop in Python?",
+"options": ["for x in y", "for x in y:", "for (x in y)", "foreach x in y"],
+"answer_index": 1
+},
+{
+"question": "Which collection type is ordered and unchangeable?",
+"options": ["List", "Dictionary", "Set", "Tuple"],
+"answer_index": 3
+},
+{
+"question": "What is the result of 10 // 3 in Python?",
+"options": ["3.33", "3", "4", "3.0"],
+"answer_index": 1
+},
+{
+"question": "Which method removes any whitespace from the beginning and end of a string?",
+"options": ["strip()", "trim()", "clear()", "cut()"],
+"answer_index": 0
+},
+{
+"question": "What is the correct way to check if 'a' is equal to 'b'?",
+"options": ["a = b", "a === b", "a == b", "a equals b"],
+"answer_index": 2
+},
+{
+"question": "Which function returns the number of items in a list?",
+"options": ["count()", "len()", "size()", "length()"],
+"answer_index": 1
+},
+{
+"question": "Which statement is used to stop a loop prematurely?",
+"options": ["exit", "stop", "break", "return"],
+"answer_index": 2
+},
+{
+"question": "What is the logical operator for 'and' in Python?",
+"options": ["&&", "and", "&", "AND"],
+"answer_index": 1
+}
+]
+}

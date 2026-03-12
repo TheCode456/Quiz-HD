@@ -1,0 +1,84 @@
+{
+"set_info": {
+"title": "Geography",
+"level": "medium",
+"genre": "Geography"
+},
+"questions": [
+{
+"question": "What is the largest continent on Earth?",
+"options": ["Africa", "Asia", "Europe", "Antarctica"],
+"answer_index": 1
+},
+{
+"question": "Which river is the longest in the world?",
+"options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+"answer_index": 1
+},
+{
+"question": "Which country has the largest population?",
+"options": ["USA", "India", "China", "Russia"],
+"answer_index": 1
+},
+{
+"question": "What is the capital of Australia?",
+"options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+"answer_index": 2
+},
+{
+"question": "Which desert is the largest hot desert?",
+"options": ["Gobi", "Kalahari", "Sahara", "Thar"],
+"answer_index": 2
+},
+{
+"question": "Mount Everest is located in which mountain range?",
+"options": ["Andes", "Rockies", "Himalayas", "Alps"],
+"answer_index": 2
+},
+{
+"question": "Which ocean is the largest?",
+"options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+"answer_index": 1
+},
+{
+"question": "Which country is known as the Land of the Rising Sun?",
+"options": ["China", "Japan", "Thailand", "Korea"],
+"answer_index": 1
+},
+{
+"question": "Which country has the most islands?",
+"options": ["Indonesia", "Philippines", "Sweden", "Japan"],
+"answer_index": 2
+},
+{
+"question": "Which continent has the most countries?",
+"options": ["Africa", "Asia", "Europe", "South America"],
+"answer_index": 0
+},
+{
+"question": "Which river flows through Egypt?",
+"options": ["Amazon", "Nile", "Danube", "Yangtze"],
+"answer_index": 1
+},
+{
+"question": "Which is the smallest continent?",
+"options": ["Europe", "Australia", "Antarctica", "South America"],
+"answer_index": 1
+},
+{
+"question": "Which country is famous for the Amazon rainforest?",
+"options": ["Brazil", "Mexico", "Argentina", "Peru"],
+"answer_index": 0
+},
+{
+"question": "Which mountain is the tallest in the world?",
+"options": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
+"answer_index": 1
+},
+{
+"question": "Which ocean lies between Africa and Australia?",
+"options": ["Pacific", "Indian", "Atlantic", "Arctic"],
+"answer_index": 1
+}
+]
+}

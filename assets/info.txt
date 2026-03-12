@@ -1,0 +1,20 @@
+You get experiences by playing Quizzes and we use the term xp for it.
+Answering correct any question will reward you 20 xp
+Answering wrong any question will deduct 5 xp , means your score can go negative
+
+You will get 10seconds for each question and answering:
+within 4 sec will give you an extra 5xp
+with 7 sec will give you an extra 2xp
+
+If you done all question correctly you will be rewarded with an extra bonus of 50 XP!
+
+and now your total grand xp will be multiplied by:-
+1.3 if your question set is medium level*
+1.7 if your question set is hard level*
+
+and the final xp is calculated is saved to your account.
+
+The level is also calculated based on your experience and it is easier to level up initially but it gets harder because of our formula to get level
+level formula: ******* (yah Secret Formula)
+
+*any decimal point is removed from the xp during adding into your account. It doesn't round means if your xp is 1.9 it is still be considered as 1 not 2.

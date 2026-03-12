@@ -1,0 +1,84 @@
+{
+"set_info": {
+"title": "History",
+"level": "hard",
+"genre": "History"
+},
+"questions": [
+{
+"question": "The Peace of Westphalia, which ended the Thirty Years' War, was signed in which year?",
+"options": ["1492", "1588", "1648", "1713"],
+"answer_index": 2
+},
+{
+"question": "Who was the first emperor of the Roman Empire?",
+"options": ["Julius Caesar", "Augustus", "Nero", "Tiberius"],
+"answer_index": 1
+},
+{
+"question": "In which year did the Byzantine Empire finally fall to the Ottoman Turks?",
+"options": ["1066", "1204", "1453", "1492"],
+"answer_index": 2
+},
+{
+"question": "Which Carthaginian general led elephants across the Alps during the Second Punic War?",
+"options": ["Hamilcar Barca", "Hannibal", "Hasdrubal", "Scipio Africanus"],
+"answer_index": 1
+},
+{
+"question": "The Meiji Restoration, which led to enormous changes in Japan's political and social structure, occurred in which century?",
+"options": ["17th Century", "18th Century", "19th Century", "20th Century"],
+"answer_index": 2
+},
+{
+"question": "Which 1215 document limited the power of the English monarchy?",
+"options": ["The Bill of Rights", "The Magna Carta", "The Petition of Right", "The Constitution"],
+"answer_index": 1
+},
+{
+"question": "Who was the primary author of the Declaration of Independence?",
+"options": ["George Washington", "Benjamin Franklin", "Thomas Jefferson", "John Adams"],
+"answer_index": 2
+},
+{
+"question": "The Battle of Waterloo in 1815 marked the final defeat of which leader?",
+"options": ["Louis XIV", "Napoleon Bonaparte", "Duke of Wellington", "Frederick the Great"],
+"answer_index": 1
+},
+{
+"question": "Which ancient civilization developed the system of writing known as Cuneiform?",
+"options": ["Egyptians", "Sumerians", "Indus Valley", "Aztecs"],
+"answer_index": 1
+},
+{
+"question": "What was the name of the series of programs launched by FDR to provide relief during the Great Depression?",
+"options": ["The Fair Deal", "The New Deal", "The Great Society", "The Square Deal"],
+"answer_index": 1
+},
+{
+"question": "The Edict of Nantes (1598) granted religious rights to which group in France?",
+"options": ["Catholics", "Huguenots", "Lutherans", "Jews"],
+"answer_index": 1
+},
+{
+"question": "Who was the first woman to win a Nobel Prize?",
+"options": ["Mother Teresa", "Marie Curie", "Jane Addams", "Rosalind Franklin"],
+"answer_index": 1
+},
+{
+"question": "The Peloponnesian War was fought between which two Greek city-states?",
+"options": ["Athens and Sparta", "Athens and Thebes", "Sparta and Corinth", "Thebes and Sparta"],
+"answer_index": 0
+},
+{
+"question": "Which Chinese dynasty was responsible for the majority of the existing Great Wall?",
+"options": ["Han Dynasty", "Tang Dynasty", "Ming Dynasty", "Qing Dynasty"],
+"answer_index": 2
+},
+{
+"question": "Which explorer is credited with the first circumnavigation of the Earth, although he died during the voyage?",
+"options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "James Cook"],
+"answer_index": 2
+}
+]
+}

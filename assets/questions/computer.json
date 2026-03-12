@@ -1,0 +1,84 @@
+{
+"set_info": {
+"title": "Computer",
+"level": "medium",
+"genre": "Technology"
+},
+"questions": [
+{
+"question": "What does CPU stand for?",
+"options": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Control Processing Unit"],
+"answer_index": 0
+},
+{
+"question": "Which company developed Windows?",
+"options": ["Apple", "Microsoft", "Google", "IBM"],
+"answer_index": 1
+},
+{
+"question": "Which language is mainly used for web pages?",
+"options": ["Python", "HTML", "C++", "Java"],
+"answer_index": 1
+},
+{
+"question": "What does RAM stand for?",
+"options": ["Random Access Memory", "Read Access Memory", "Rapid Access Module", "Run Access Memory"],
+"answer_index": 0
+},
+{
+"question": "Which device is used to input text?",
+"options": ["Monitor", "Keyboard", "Speaker", "Printer"],
+"answer_index": 1
+},
+{
+"question": "Which company created the iPhone?",
+"options": ["Samsung", "Google", "Apple", "Microsoft"],
+"answer_index": 2
+},
+{
+"question": "What is the brain of the computer?",
+"options": ["CPU", "RAM", "Hard Drive", "GPU"],
+"answer_index": 0
+},
+{
+"question": "Which storage device uses no moving parts?",
+"options": ["HDD", "SSD", "DVD", "CD"],
+"answer_index": 1
+},
+{
+"question": "Which company developed Python?",
+"options": ["Microsoft", "Google", "Python Software Foundation", "IBM"],
+"answer_index": 2
+},
+{
+"question": "What does URL stand for?",
+"options": ["Uniform Resource Locator", "Universal Resource Link", "Uniform Reference Link", "Unique Resource Locator"],
+"answer_index": 0
+},
+{
+"question": "Which key combination copies text?",
+"options": ["Ctrl+X", "Ctrl+V", "Ctrl+C", "Ctrl+Z"],
+"answer_index": 2
+},
+{
+"question": "Which part of a computer displays output?",
+"options": ["Monitor", "Keyboard", "Mouse", "Printer"],
+"answer_index": 0
+},
+{
+"question": "Which language is commonly used for AI?",
+"options": ["Python", "HTML", "CSS", "PHP"],
+"answer_index": 0
+},
+{
+"question": "Which company developed Android?",
+"options": ["Apple", "Google", "Samsung", "Microsoft"],
+"answer_index": 1
+},
+{
+"question": "Which device connects a computer to the internet?",
+"options": ["Router", "Monitor", "Keyboard", "Printer"],
+"answer_index": 0
+}
+]
+}

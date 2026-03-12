@@ -1,0 +1,81 @@
+# Quiz-HD
+
+Quiz-HD is a **Python-based local quizzing application** built using **CustomTkinter**.  
+It focuses on providing a clean UI experience that matches the **modern Windows rounded-corner design**.
+
+## Features
+
+- **CustomTkinter UI** for a modern interface
+- **Multiple users system**
+- **Randomized quiz questions**
+- **XP and Level system**
+- **User profile management**
+- **Statistics dashboard**
+
+## Installation
+
+- **Cloning**: Clone the files in your system using git command following
+```bash
+git clone https://github.com/TheCode456/Quiz-HD.git
+```
+got to the folder
+``` bash
+cd QUIZ-HD
+```
+- **Installing Modules**: use the requirments.txt to install the required modules in your python enviornmant
+``` bash
+pip install -r requirements.txt
+```
+## Running Program
+complete installation part and run the following command in terminal and directory must be the folder QUIZ-HD
+
+``` bash
+python main.py
+```
+## Project Structure
+
+The project is divided into multiple files, each responsible for a specific task.
+
+### Startup Files
+- **file_check.py**  
+  Runs at startup to ensure that all required files exist.
+
+- **autocorrect.py**  
+  Validates and corrects the format of JSON files that store user data.
+
+### User System
+The login system uses `user.json` files to:
+- Display available users
+- Authenticate using passwords
+- Add new users
+
+### Main Interface
+The main application contains a **sidebar with multiple tabs**, including:
+
+- **Dashboard**  
+  Displays user statistics such as:
+  - Current Level
+  - Last quiz result
+
+- **Quiz Button**  
+  Allows the user to start a quiz.
+
+### Quiz System
+The `quiz.py` file manages quiz functionality.
+
+Key features:
+- Questions are **randomized using `random.shuffle()`**
+- A single **content_frame** is reused to display different screens
+- A helper function `clear_frame(frame)` removes existing widgets before loading new content
+
+### User Profile
+Users can:
+- Change their **profile picture**
+- **Update their password**
+- **Delete their account**
+
+### XP & Level System
+The level is calculated using the formula:
+
+```python
+int(math.sqrt(xp / 100)) + 1
