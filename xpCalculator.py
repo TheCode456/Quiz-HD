@@ -28,6 +28,13 @@ def actual_xp(xp):
     lvl=lvl*lvl
     lvl=lvl*100
     actual_exp=xp-lvl
+
+    if actual_exp>1000000:
+        actual_exp=round(actual_exp/1000000,2)
+        actual_exp=str(actual_exp)+" M"
+    elif actual_exp>1000:
+        actual_exp=round(actual_exp/1000,2)
+        actual_exp=str(actual_exp)+" K"
     return actual_exp
 
 def required_xp(user):
