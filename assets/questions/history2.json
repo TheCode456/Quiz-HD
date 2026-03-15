@@ -1,84 +1,159 @@
 {
-"set_info": {
-"title": "History",
-"level": "medium",
-"genre": "History"
-},
-"questions": [
-{
-"question": "Who was the first President of the United States?",
-"options": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "John Adams"],
-"answer_index": 0
-},
-{
-"question": "In which year did World War II end?",
-"options": ["1943", "1945", "1947", "1950"],
-"answer_index": 1
-},
-{
-"question": "Who discovered America in 1492?",
-"options": ["Christopher Columbus", "Magellan", "Vasco da Gama", "Cook"],
-"answer_index": 0
-},
-{
-"question": "Which civilization built the pyramids?",
-"options": ["Romans", "Greeks", "Egyptians", "Persians"],
-"answer_index": 2
-},
-{
-"question": "Who was known as the Iron Lady?",
-"options": ["Queen Elizabeth", "Margaret Thatcher", "Indira Gandhi", "Angela Merkel"],
-"answer_index": 1
-},
-{
-"question": "Who was the first man to walk on the Moon?",
-"options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
-"answer_index": 0
-},
-{
-"question": "Which empire was ruled by Julius Caesar?",
-"options": ["Roman", "Greek", "Ottoman", "Persian"],
-"answer_index": 0
-},
-{
-"question": "The Great Wall is located in which country?",
-"options": ["Japan", "China", "Mongolia", "Korea"],
-"answer_index": 1
-},
-{
-"question": "Who was the first Emperor of Rome?",
-"options": ["Augustus", "Caesar", "Nero", "Caligula"],
-"answer_index": 0
-},
-{
-"question": "Which war lasted from 1914 to 1918?",
-"options": ["World War I", "World War II", "Cold War", "Vietnam War"],
-"answer_index": 0
-},
-{
-"question": "Who was the leader of Nazi Germany?",
-"options": ["Hitler", "Stalin", "Mussolini", "Lenin"],
-"answer_index": 0
-},
-{
-"question": "Which country gifted the Statue of Liberty to the USA?",
-"options": ["France", "Italy", "Germany", "Spain"],
-"answer_index": 0
-},
-{
-"question": "Who was the first woman Prime Minister of India?",
-"options": ["Indira Gandhi", "Sarojini Naidu", "Pratibha Patil", "Sonia Gandhi"],
-"answer_index": 0
-},
-{
-"question": "Which civilization invented paper?",
-"options": ["Roman", "Chinese", "Greek", "Egyptian"],
-"answer_index": 1
-},
-{
-"question": "Who was known as the Father of the Nation in India?",
-"options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Bhagat Singh"],
-"answer_index": 2
-}
-]
+    "set_info": {
+        "title": "History",
+        "level": "medium",
+        "genre": "History"
+    },
+    "questions": [
+        {
+            "question": "Who was the first President of the United States?",
+            "options": [
+                "George Washington",
+                "Abraham Lincoln",
+                "Thomas Jefferson",
+                "John Adams"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "In which year did World War II end?",
+            "options": [
+                "1943",
+                "1945",
+                "1947",
+                "1950"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Who discovered America in 1492?",
+            "options": [
+                "Christopher Columbus",
+                "Magellan",
+                "Vasco da Gama",
+                "Cook"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which civilization built the pyramids?",
+            "options": [
+                "Romans",
+                "Greeks",
+                "Egyptians",
+                "Persians"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Who was known as the Iron Lady?",
+            "options": [
+                "Queen Elizabeth",
+                "Margaret Thatcher",
+                "Indira Gandhi",
+                "Angela Merkel"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Who was the first man to walk on the Moon?",
+            "options": [
+                "Neil Armstrong",
+                "Buzz Aldrin",
+                "Yuri Gagarin",
+                "Michael Collins"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which empire was ruled by Julius Caesar?",
+            "options": [
+                "Roman",
+                "Greek",
+                "Ottoman",
+                "Persian"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "The Great Wall is located in which country?",
+            "options": [
+                "Japan",
+                "China",
+                "Mongolia",
+                "Korea"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Who was the first Emperor of Rome?",
+            "options": [
+                "Augustus",
+                "Caesar",
+                "Nero",
+                "Caligula"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which war lasted from 1914 to 1918?",
+            "options": [
+                "World War I",
+                "World War II",
+                "Cold War",
+                "Vietnam War"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Who was the leader of Nazi Germany?",
+            "options": [
+                "Hitler",
+                "Stalin",
+                "Mussolini",
+                "Lenin"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which country gifted the Statue of Liberty to the USA?",
+            "options": [
+                "France",
+                "Italy",
+                "Germany",
+                "Spain"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Who was the first woman Prime Minister of India?",
+            "options": [
+                "Indira Gandhi",
+                "Sarojini Naidu",
+                "Pratibha Patil",
+                "Sonia Gandhi"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which civilization invented paper?",
+            "options": [
+                "Roman",
+                "Chinese",
+                "Greek",
+                "Egyptian"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Who was known as the Father of the Nation in India?",
+            "options": [
+                "Jawaharlal Nehru",
+                "Subhas Chandra Bose",
+                "Mahatma Gandhi",
+                "Bhagat Singh"
+            ],
+            "answer_index": 2
+        }
+    ]
 }

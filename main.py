@@ -11,6 +11,7 @@ import customtkinter as ctk
 from login import login
 from Quiz import Quiz
 from PIL import Image
+from add_questions import add,upload
 
 
 # ---------- BASIC CONFIG ----------
@@ -365,6 +366,13 @@ def show_question_set(frame,user):
     for file in os.listdir("assets/questions/"):
         questions.append(file)
         number+=1
+    add_button_frame=ctk.CTkFrame(frame,width=frame.winfo_width(),height=50,fg_color="#16213e")
+    add_button_frame.pack(pady=5,side="top",padx=10)
+    add_button_frame.pack_propagate(False)
+    upload_btn=ctk.CTkButton(add_button_frame,text="Upload Questions(json)",text_color="#f1f5f9",corner_radius=5,command=upload)
+    manual_btn=ctk.CTkButton(add_button_frame,text="Add Questions Manually",text_color="#f1f5f9",corner_radius=5,command=add)
+    upload_btn.pack(side="left",padx=100)
+    manual_btn.pack(side="right",padx=100)
 
     if number>3:
         question_frame=ctk.CTkScrollableFrame(frame,fg_color="#0F172A")
