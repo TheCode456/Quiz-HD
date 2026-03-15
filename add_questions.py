@@ -1,3 +1,5 @@
+import os
+
 import customtkinter as ctk
 import json
 from tkinter import filedialog,messagebox
@@ -5,6 +7,9 @@ def get_data(entries,title,lvl,gnr):
     json_format=[]
     for r in range(len(entries)):
         row=[e.get() for e in entries[r]]
+        if not row[0].strip():
+            messagebox.showerror("Error","Question cannot be empty")
+            return
         options=[]
         options.append(row[1])
         options.append(row[2])
@@ -13,12 +18,15 @@ def get_data(entries,title,lvl,gnr):
         q={
             "question":row[0],
             "options":options,
-            "correct_index": int(row[5])
+            "answer_index": int(row[5])
         }
         json_format.append(q)
+    if lvl.lower() not in ["easy","medium","hard"]:
+        messagebox.showerror("Error","Invalid level (must be easy, medium, or hard)")
+        return
     set_info={
         "title":title,
-        "level":lvl,
+        "level":lvl.lower(),
         "genre":gnr
     }
     with open(f"assets/questions/{title}.json","w")as file:
@@ -33,11 +41,11 @@ def get_data(entries,title,lvl,gnr):
         
 
 def add():
-    app = ctk.CTk()
+    app = ctk.CTkToplevel()
     app.geometry("900x500")
     ti=ctk.CTkInputDialog(text="Title")
     title=ti.get_input()
-    lvl=ctk.CTkInputDialog(text="level")
+    lvl=ctk.CTkInputDialog(text="level(easy,medium,hard)")
     level=lvl.get_input()
     genr=ctk.CTkInputDialog(text="Genre")
     genre=genr.get_input()
@@ -58,7 +66,7 @@ def add():
         "Option2",
         "Option3",
         "Option4",
-        "Correct Index"
+        "Answer Index"
     ]
 
     # Create header row
@@ -120,6 +128,8 @@ def check_quiz_file(path):
     # check questions
     if "questions" not in data:
         return "Missing 'questions' section"
+    if len(data["questions"]) == 0:
+        return "Quiz contains no questions"
 
     if not isinstance(data["questions"], list):
         return "'questions' must be a list"
@@ -147,17 +157,33 @@ def check_quiz_file(path):
 def upload():
     import assets.show_format as s
     path=filedialog.askopenfile(title="Select Quiz JSON",filetypes=[("JSON Files","*.json")])
-    json_data=check_quiz_file(path.name)
-    if json_data:
+    if not path:
+        return
+    json_data=[]
+    check=check_quiz_file(path.name)
+    if check==True:
         json_data=json.load(path)
-    if json_data!=True:
-        messagebox.showerror("Not correct",str(json_data))
+    if check!=True:
+        messagebox.showerror("Not correct",str(check))
         s.show_format()
         return
 
-    f=ctk.CTkInputDialog(text="Filename")
+    f=ctk.CTkInputDialog(text="Filename(20 characters max)")
+    name=f.get_input()
+    if not name:
+        return
+    if len(name)>20:
+        messagebox.showerror("Error","Filename too long")
+        return
+    invalid=[r',\,/,:,*,?,",<,>,|']
+    if any(char in name for char in invalid):
+        messagebox.showerror("Error","Invalid characters in filename")
+        return
     try:
-        with open(f"assets/questions/{f.get_input()}.json","w")as file:
+        if os.path.exists(f"assets/questions/{name}.json"):
+            messagebox.showerror("Error","File already exists")
+            return
+        with open(f"assets/questions/{name}.json","w")as file:
             json.dump(json_data,file,indent=4)
     except Exception as e:
         messagebox.showerror("Error",str(e))

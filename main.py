@@ -3,9 +3,20 @@ from files_check import checking
 if not checking():
     quit()
     #it is above all to save cpu power loading all stuff without need as it may crash
+import sys
+import traceback
+from tkinter import messagebox,filedialog
+
+def global_exception_handler(exc_type, exc_value, exc_traceback):#global error handler
+    err = "".join(traceback.format_exception(exc_type, exc_value, exc_traceback))
+    messagebox.showerror("Unexpected Error", err)
+def tkinter_exception_handler(exc, val, tb):
+    err = "".join(traceback.format_exception(exc, val, tb))
+    messagebox.showerror("Application Error", err)
+
+sys.excepthook = global_exception_handler
 import json
 import os
-from tkinter import messagebox,filedialog
 from xpCalculator import convert_level,actual_xp,required_xp,xp_required
 import customtkinter as ctk
 from login import login
@@ -25,6 +36,7 @@ root.geometry("1080x720")              # width x height
 root.minsize(810,540)                # minimum size
 root.resizable(False, False)       
 root.configure(bg="#16213E")
+root.report_callback_exception = tkinter_exception_handler #check for any error and show properly.
 
 #  Center window on screen
 screen_width = root.winfo_screenwidth()
@@ -184,8 +196,11 @@ def dashboard(username,frame):
     ctk.CTkLabel(row, text="Questions:", font=("Arial", 20), bg_color="transparent").pack(side="left")
     
     values=os.listdir("assets/questions/")
-    for i in range(len(values)):
-        values[i]=values[i][:-5]
+    if not values:
+        values=["No Questions Available"]
+    else:
+        for i in range(len(values)):
+            values[i]=values[i][:-5]
 
     def go():
         if questions.get():
@@ -193,12 +208,14 @@ def dashboard(username,frame):
             Quiz(username,(question+".json"),frame)
         else:
             messagebox.showerror("No Questions","Please select question set from the dropdown menu")
-    
+
     questions=ctk.CTkOptionMenu(row,values=values,font=("Arial",20),width=200,fg_color="#1F2A3A",button_color="#3B82F6",button_hover_color="#2563EB",text_color="#F1F5F9",text_color_disabled="#6B7280",dropdown_fg_color="#1F2A3A",dropdown_text_color="#F1F5F9",dropdown_hover_color="#374151")
     questions.pack(side="left",padx=10)
 
     go_btn=ctk.CTkButton(row,text="GO!",font=("Arial",20),width=50,fg_color="#3b82f6",hover_color="#2563eb",command=go)
     go_btn.pack(side="left",padx=10)
+    if not os.listdir("assets/questions/"):
+        go_btn.configure(state="disabled") # turn off button funtionality if no question set avl
 
     ctk.CTkButton(frame,bg_color="transparent",fg_color="transparent",text_color="white",hover_color="#1c2b50",text="To know more about the xp calculation and levels algorithm. Click Here",command=info).pack(side="top",pady=8)
 
@@ -352,10 +369,23 @@ def change_password(userid,new_password):
     with open(f"users/{userid}.json", "r") as f:
         data=json.load(f)
     data["password"]=new_password
+    if not new_password:
+        messagebox.showerror("Error","Password cannot be empty")
+        return
     with open(f"users/{userid}.json", "w") as f:
         json.dump(data,f,indent=4)#indent ncreases readability by adding newlines and indentation to the JSON data.
         messagebox.showinfo("Success", "Password changed successfully")
 
+def delete_question_set(q):
+    statement="Are you sure you want to delete this question set.\nThis action cannot be undone.\nClick yes to continue and no to cancel"
+    cnf=messagebox.askyesno("Conform",statement)
+    if cnf:
+        try:
+            os.remove(f"assets/questions/{q}")
+            messagebox.showinfo("Deleted",f"{q.replace('.json','')} question set has been deleted successfully")
+            root.update_idletasks()
+        except Exception as e:
+            messagebox.showerror("Error",f"Failed to delete question set: {e}")
 ####################################################################################################
 resize_job = None
 def show_question_set(frame,user):
@@ -407,6 +437,7 @@ def show_question_set(frame,user):
         ctk.CTkLabel(f,text=difficulty,font=("Roboto", 15),text_color=font_color).pack(pady=15,padx=15)
         ctk.CTkLabel(f,text=genere,font=("Roboto", 15)).pack(pady=15,padx=15)
         ctk.CTkButton(f,text="Start Quiz",font=("Roboto", 15),fg_color="#3B82F6",hover_color="#2563EB",command=lambda q=questions[set]:[ Quiz(user,q,frame)]).pack(pady=10)
+        ctk.CTkButton(f,text="Delete Set",font=("Roboto", 15),fg_color="#A41919",hover_color="#6A1010",command=lambda q=questions[set]:[delete_question_set(q),show_question_set(frame,user)]).pack(pady=10)
 
     
 def open_profile_image(username):

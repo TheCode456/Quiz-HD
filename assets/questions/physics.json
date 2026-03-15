@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Physics Basics",
+        "level": "easy",
+        "genre": "science"
+    },
+    "questions": [
+        {
+            "question": "What force pulls objects toward Earth?",
+            "options": [
+                "Magnetism",
+                "Gravity",
+                "Friction",
+                "Electricity"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is the SI unit of force?",
+            "options": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Pascal"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which instrument measures temperature?",
+            "options": [
+                "Barometer",
+                "Thermometer",
+                "Ammeter",
+                "Voltmeter"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What energy does a moving object have?",
+            "options": [
+                "Potential",
+                "Chemical",
+                "Kinetic",
+                "Thermal"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Hydrogen"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Speed is distance divided by what?",
+            "options": [
+                "Time",
+                "Mass",
+                "Force",
+                "Energy"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which device measures electric current?",
+            "options": [
+                "Voltmeter",
+                "Ammeter",
+                "Barometer",
+                "Thermometer"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What type of energy is stored in a stretched spring?",
+            "options": [
+                "Kinetic",
+                "Thermal",
+                "Potential",
+                "Electrical"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which scientist discovered gravity after observing a falling apple?",
+            "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei",
+                "Nikola Tesla"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Light travels fastest in which medium?",
+            "options": [
+                "Water",
+                "Glass",
+                "Air",
+                "Vacuum"
+            ],
+            "answer_index": 3
+        },
+        {
+            "question": "What is the SI unit of energy?",
+            "options": [
+                "Newton",
+                "Joule",
+                "Volt",
+                "Watt"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What simple machine is a slanted surface used to raise objects?",
+            "options": [
+                "Pulley",
+                "Inclined plane",
+                "Lever",
+                "Wheel"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which form of energy comes from the Sun?",
+            "options": [
+                "Solar",
+                "Chemical",
+                "Nuclear",
+                "Mechanical"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which property describes how heavy something is?",
+            "options": [
+                "Volume",
+                "Mass",
+                "Speed",
+                "Density"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which wave type needs a medium to travel?",
+            "options": [
+                "Light",
+                "Radio",
+                "Sound",
+                "X-ray"
+            ],
+            "answer_index": 2
+        }
+    ]
+}

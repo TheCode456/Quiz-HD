@@ -1,85 +1,159 @@
-
 {
-"set_info": {
-"title": "Science",
-"level": "medium",
-"genre": "Science"
-},
-"questions": [
-{
-"question": "What is the pH value of pure water?",
-"options": ["0", "5", "7", "14"],
-"answer_index": 2
-},
-{
-"question": "Which gas is most abundant in the Earth's atmosphere?",
-"options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-"answer_index": 2
-},
-{
-"question": "Which planet is known as the Red Planet?",
-"options": ["Venus", "Mars", "Jupiter", "Saturn"],
-"answer_index": 1
-},
-{
-"question": "What is the hardest natural substance on Earth?",
-"options": ["Gold", "Iron", "Diamond", "Quartz"],
-"answer_index": 2
-},
-{
-"question": "Which part of the plant is responsible for photosynthesis?",
-"options": ["Root", "Stem", "Flower", "Leaf"],
-"answer_index": 3
-},
-{
-"question": "What is the chemical symbol for Gold?",
-"options": ["Go", "Gd", "Ag", "Au"],
-"answer_index": 3
-},
-{
-"question": "Which organ in the human body is responsible for pumping blood?",
-"options": ["Lungs", "Brain", "Heart", "Liver"],
-"answer_index": 2
-},
-{
-"question": "What is the boiling point of water at sea level?",
-"options": ["90°C", "100°C", "110°C", "120°C"],
-"answer_index": 1
-},
-{
-"question": "Which force pulls objects toward the center of the Earth?",
-"options": ["Magnetism", "Friction", "Gravity", "Inertia"],
-"answer_index": 2
-},
-{
-"question": "What is the basic unit of life?",
-"options": ["Atom", "Cell", "Molecule", "Organ"],
-"answer_index": 1
-},
-{
-"question": "Which instrument is used to measure atmospheric pressure?",
-"options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
-"answer_index": 1
-},
-{
-"question": "Sound travels fastest through which of the following?",
-"options": ["Air", "Water", "Steel", "Vacuum"],
-"answer_index": 2
-},
-{
-"question": "Which vitamin is produced when human skin is exposed to sunlight?",
-"options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
-"answer_index": 3
-},
-{
-"question": "What is the center of an atom called?",
-"options": ["Electron", "Proton", "Nucleus", "Neutron"],
-"answer_index": 2
-},
-{
-"question": "How many bones are there in an adult human body?",
-"options": ["186", "206", "216", "226"],
-"answer_index": 1
-}
-]
+    "set_info": {
+        "title": "Physics Basics",
+        "level": "easy",
+        "genre": "science"
+    },
+    "questions": [
+        {
+            "question": "What force pulls objects toward Earth?",
+            "options": [
+                "Magnetism",
+                "Gravity",
+                "Friction",
+                "Electricity"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is the SI unit of force?",
+            "options": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Pascal"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which instrument measures temperature?",
+            "options": [
+                "Barometer",
+                "Thermometer",
+                "Ammeter",
+                "Voltmeter"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What energy does a moving object have?",
+            "options": [
+                "Potential",
+                "Chemical",
+                "Kinetic",
+                "Thermal"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Hydrogen"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Speed is distance divided by what?",
+            "options": [
+                "Time",
+                "Mass",
+                "Force",
+                "Energy"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which device measures electric current?",
+            "options": [
+                "Voltmeter",
+                "Ammeter",
+                "Barometer",
+                "Thermometer"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What type of energy is stored in a stretched spring?",
+            "options": [
+                "Kinetic",
+                "Thermal",
+                "Potential",
+                "Electrical"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which scientist discovered gravity after observing a falling apple?",
+            "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei",
+                "Nikola Tesla"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Light travels fastest in which medium?",
+            "options": [
+                "Water",
+                "Glass",
+                "Air",
+                "Vacuum"
+            ],
+            "answer_index": 3
+        },
+        {
+            "question": "What is the SI unit of energy?",
+            "options": [
+                "Newton",
+                "Joule",
+                "Volt",
+                "Watt"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What simple machine is a slanted surface used to raise objects?",
+            "options": [
+                "Pulley",
+                "Inclined plane",
+                "Lever",
+                "Wheel"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which form of energy comes from the Sun?",
+            "options": [
+                "Solar",
+                "Chemical",
+                "Nuclear",
+                "Mechanical"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which property describes how heavy something is?",
+            "options": [
+                "Volume",
+                "Mass",
+                "Speed",
+                "Density"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which wave type needs a medium to travel?",
+            "options": [
+                "Light",
+                "Radio",
+                "Sound",
+                "X-ray"
+            ],
+            "answer_index": 2
+        }
+    ]
 }

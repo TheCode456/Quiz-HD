@@ -12,7 +12,7 @@
             "option2": "string",
             "option3": "string",
             "option4": "string",
-            "correct": "0-3(int)"
+            "correct_index": "0-3(int)"
         },
         {
             "question": "string",
@@ -20,7 +20,7 @@
             "option2": "string",
             "option3": "string",
             "option4": "string",
-            "correct": "0-3(int)"
+            "correct_index": "0-3(int)"
         }
     ]
 }

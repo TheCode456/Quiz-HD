@@ -11,6 +11,7 @@ It focuses on providing a clean UI experience that matches the **modern Windows 
 - **XP and Level system**
 - **User profile management**
 - **Statistics dashboard**
+- **Question sets management system[(v1.5)](https://github.com/TheCode456/Quiz-HD/releases/tag/v1.5)**
 
 ## Installation
 
