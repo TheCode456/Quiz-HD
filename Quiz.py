@@ -63,7 +63,7 @@ def save_progress(username, gained_xp, quizname, correct, wrong, skip):
         
     
 
-    data["xp"] = xp
+    data["xp"] = int(xp)
     data["quizzes_played"] = quiz_no
     stats["correct"] = total_correct
     stats["wrong"] = total_wrong

@@ -60,16 +60,16 @@ def show_leaderboard(frame):
     title_rank=ctk.CTkLabel(content_frame,text="Rank",font=("Airal",16,"bold"))
     title_player=ctk.CTkLabel(content_frame,text="User",font=("Airal",16,"bold"))
     title_score=ctk.CTkLabel(content_frame,text="Score",font=("Airal",16,"bold"))
-    title_rank.grid(column=0,row=0,padx=50,pady=30)
-    title_player.grid(column=1,row=0,padx=50,pady=30)
+    title_player.grid(column=0,row=0,padx=50,pady=30)
+    title_rank.grid(column=1,row=0,padx=50,pady=30)
     title_score.grid(column=2,row=0,padx=50,pady=30)
     
     for i in range(1,len(usernames)+1):
         rank=i
         point=max(unsorted_points)
         username=usernames[unsorted_points.index(point)][:-5]
-        ctk.CTkLabel(content_frame,text=rank,font=("Airal",14)).grid(column=0,row=i,padx=50,pady=30)
-        ctk.CTkLabel(content_frame,text=username,font=("Airal",14)).grid(column=1,row=i,padx=50,pady=30)
+        ctk.CTkLabel(content_frame,text=username,font=("Airal",14)).grid(column=0,row=i,padx=50,pady=30)
+        ctk.CTkLabel(content_frame,text=rank,font=("Airal",14)).grid(column=1,row=i,padx=50,pady=30)
         ctk.CTkLabel(content_frame,text=point,font=("Airal",14)).grid(column=2,row=i,padx=50,pady=30)
         usernames.remove(usernames[unsorted_points.index(point)])
         unsorted_points.remove(point)

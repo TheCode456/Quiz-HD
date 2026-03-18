@@ -254,7 +254,7 @@ def dashboard(username,frame):
     total.grid(padx=5,pady=5,column=2,row=4)
     accuracy=ctk.CTkLabel(f,text=f"Accuracy: ",font=("Arial",15),fg_color="transparent",text_color="#f1f5f9")
     accuracy.grid(padx=5,pady=5,column=2,row=5)
-    overall_xp=ctk.CTkLabel(f,text=f"Score(total xp): ",font=("Arial",15),fg_color="transparent",text_color="#f1f5f9")
+    overall_xp=ctk.CTkLabel(f,text=f"total xp: ",font=("Arial",15),fg_color="transparent",text_color="#f1f5f9")
     overall_xp.grid(padx=5,pady=5,column=2,row=6)
 
     fill_in(username,quiz_played,correct,wrong,left,total,accuracy,overall_xp)
