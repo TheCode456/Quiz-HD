@@ -14,7 +14,8 @@ def ensure_user_structure(path):
         "stats": {
             "correct": 0,
             "wrong": 0,
-            "skipped": 0
+            "skipped": 0,
+            "repeat":0,
         },
         "last_quiz": {
             "quiz_name": None,

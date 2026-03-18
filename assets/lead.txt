@@ -1,0 +1,14 @@
+The things contribute to your leaderboard rank are:
+1. XP
+2. number of correct quiz
+3. number of wrong quiz
+4. number of total quiz attempted
+5. number of repeated quiz
+
+Motto:
+Keep the leaderboard truly skill based and remove xp grinding and repeated grinding
+
+Formula: (((((xp-(10*wrong))-repated*15)+correct*5)-skip*2)+quizplayed*5)
+
+Explanation:
+from the total xp 10times no of wrong answer is subtracted then 15time of repeated questions is subtracted then 5times of correct is added and double of skipped question is subtracted at last 5times of no of quiz played is also added

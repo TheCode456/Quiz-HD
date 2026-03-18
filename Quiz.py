@@ -25,12 +25,12 @@ def save_progress(username, gained_xp, quizname, correct, wrong, skip):
             data = {
                 "xp": 0,
                 "quizzes_played": 0,
-                "stats": {"correct": 0, "wrong": 0, "skipped": 0},
+                "stats": {"correct": 0, "wrong": 0, "skipped": 0,"repeat":0},
                 "last_quiz": {}
             }
 
     # update the progress values
-    xp = data.get("xp", 0) + gained_xp
+    xp = data.get("xp", 0)
     quiz_no = data.get("quizzes_played", 0) + 1
     stats = data.get("stats", {"correct": 0, "wrong": 0, "skipped": 0})
     quiz_name = quizname
@@ -55,6 +55,13 @@ def save_progress(username, gained_xp, quizname, correct, wrong, skip):
         xp=0
         if data["level"]>0:
             data["level"]=data["level"]-1
+    current_quiz=quiz_name.replace("assets/questions/","")
+    if current_quiz in done:
+        rep=stats["repeat"]
+        stats["repeat"]=rep+1
+    xp+=gained_xp
+        
+    
 
     data["xp"] = xp
     data["quizzes_played"] = quiz_no
@@ -128,6 +135,13 @@ def Quiz(username, questions, window):
         if questions_correct==total:
             gained_xp+=50
         gained_xp=difficulty_multiplier(path,gained_xp)
+
+        with open(f"users/{username}.json","r") as f:
+            data=json.load(f)
+            if path.replace("assets/questions/","") in data["quizzes_completed"]:
+                gained_xp=int(gained_xp/2)
+
+
         title = CTkLabel(window,text="Quiz Summary",font=("Roboto", 32, "bold"))
         title.pack(pady=(30,20))
         # Container

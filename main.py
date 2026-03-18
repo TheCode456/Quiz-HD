@@ -23,6 +23,7 @@ from login import login
 from Quiz import Quiz
 from PIL import Image
 from add_questions import add,upload
+from assets.leaderboard import show_leaderboard
 
 
 # ---------- BASIC CONFIG ----------
@@ -96,7 +97,7 @@ def info():
     window.title("Information")
     with open("assets/info.txt","r") as file:
         txt=str(file.read())
-    text=ctk.CTkTextbox(window,width=1000,height=300,wrap="word")
+    text=ctk.CTkTextbox(window,width=1000,height=320,wrap="word")
     text.pack(expand=True,fill="both",padx=20,pady=20)
     text.insert("1.0",txt)
     text.focus_displayof()
@@ -484,6 +485,9 @@ def show_main(username):
 
     question_set_btn=ctk.CTkButton(sidebar,text="Question Set",font=("Arial", 15, "bold"),text_color="#F1F5F9",fg_color="#3B82F6",hover_color="#2563EB",command=lambda:show_question_set(content_frame,username))
     question_set_btn.pack(side="top",pady=10)
+
+    leader_btn=ctk.CTkButton(sidebar,text="Leaderboard",font=("Arial", 15, "bold"),text_color="#F1F5F9",fg_color="#3B82F6",hover_color="#2563EB",command=lambda:show_leaderboard(content_frame))
+    leader_btn.pack(side="top",pady=10)
 root.after(100, lambda: login(root, open_dashboard))
 
 root.mainloop()
