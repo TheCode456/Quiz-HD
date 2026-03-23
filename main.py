@@ -336,9 +336,9 @@ def update_pic(user,lbl):
 
 def delete_user(username):
     statement="Are you sure you want to delete all your data.\nEverything including your quiz history,xp,stats and profile data will be cleared from our database and you will no longer able to recover them.\nClick yes to continue and no to cancel"
-    cnf=messagebox.askyesno("Conform",statement)
+    cnf=messagebox.askyesno("Confirm",statement)
     if cnf:
-        ask=ctk.CTkInputDialog(text="Enter your password to conform")
+        ask=ctk.CTkInputDialog(text="Enter your password to confirm")
         password=ask.get_input()
         with open(f"users/{username}.json","r") as file:
             data=json.load(file)
@@ -346,6 +346,7 @@ def delete_user(username):
             os.remove(f"users/{username}.json")
             try:
                 os.remove(f"users/imgs/{username}.png")
+                os.remove("remember.txt")
             except:
                 pass
             root.destroy()
@@ -365,6 +366,7 @@ def Profile(frame,userid,lbl):
     pass_entry.pack(pady=10,anchor="n")
     ctk.CTkButton(frame,text="Change Password",font=("Roboto", 15),fg_color="#3B82F6",hover_color="#2563EB",command=lambda: change_password(userid,pass_entry.get())).pack(pady=10,anchor="n")
     ctk.CTkButton(frame,text="Delete User",font=("Roboto", 15),fg_color="#A41919",hover_color="#6A1010",command=lambda: delete_user(userid)).pack(pady=10,side="bottom")
+    ctk.CTkButton(frame,text="Remove Auto Login(remember me)",font=("Roboto", 15),fg_color="#3B82F6",hover_color="#2563EB",command=lambda: [os.remove("remember.txt"), messagebox.showinfo("Success", "Auto Login Removed Successfully")]).pack(pady=10,side="top")
 
 def change_password(userid,new_password):
     with open(f"users/{userid}.json", "r") as f:

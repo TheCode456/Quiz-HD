@@ -77,6 +77,9 @@ def verify_password(username, entered_pass, frame, window, on_success, add_butto
         if data["password"] == entered_pass:
             frame.destroy()
             on_success(username)
+            with open("remember.txt","w") as f:
+                sentence=f'''{remember_var.get()}\n{username}'''
+                f.write(sentence)
 
         else:
             messagebox.showerror("Error", "Wrong Password")
@@ -124,7 +127,32 @@ def handle_login(username, frame, window, on_success, add_button):
     # Change Add User → Confirm Password
     add_button.configure(text="Confirm Password",fg_color="#10B981",hover_color="#059669",command=lambda: verify_password(username,pass_entry.get(),frame,window,on_success,add_button,pass_entry))
 def login(window,on_success):
-    usernames=get_users()
+    remember_username = None
+    try:
+        with open("remember.txt", "r") as file:
+            lines = [line.strip() for line in file.readlines() if line.strip()]
+        if len(lines) >= 2 and lines[0].lower() in ("true", "1", "yes"):
+            remember_username = lines[1]
+    except FileNotFoundError:
+        pass
+    except Exception:
+        # If remember file is malformed, ignore and show login UI
+        remember_username = None
+
+    if remember_username:
+        user_file = f"users/{remember_username}.json"
+        try:
+            with open(user_file, "r") as j:
+                data = json.load(j)
+            # Optionally check if structure valid / password exists
+            if "password" in data:
+                on_success(remember_username)
+                return
+        except Exception:
+            # Fall back to manual login screen if remembered user cannot be loaded
+            remember_username = None
+
+    usernames = get_users()
     for username in usernames:
         ensure_user_structure("users/" + username + ".json")
     frame_log=ct.CTkScrollableFrame(window,width=250,height=200,fg_color="#334155")
@@ -145,6 +173,11 @@ def login(window,on_success):
     add_button = ct.CTkButton(window,text="Add User",fg_color="#3B82F6",hover_color="#2563EB",command=lambda: [adduser(), refresh_users()])
     add_button.pack(pady=50, side='bottom')
 
+    global remember_var
+
+    remember_var=ct.BooleanVar(value=False)
+    remember=ct.CTkCheckBox(window,text="Remember Me",variable=remember_var,onvalue=True,offvalue=False,corner_radius=100)
+    remember.pack(side='bottom')
     refresh_users()
 
         

@@ -3,6 +3,13 @@ def checking():
     from tkinter import messagebox
     from pathlib import Path
 
+    try:
+        with open("remember.txt","r") as created:
+            pass
+    except:
+        with open("remember.txt","w") as created:
+            pass
+
     os.makedirs("users", exist_ok=True)
     os.makedirs("users/imgs", exist_ok=True)
     os.makedirs("assets", exist_ok=True)
