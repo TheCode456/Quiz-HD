@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "World Capitals",
+        "level": "easy",
+        "genre": "Geography"
+    },
+    "questions": [
+        {
+            "question": "Capital of Japan?",
+            "options": [
+                "Seoul",
+                "Tokyo",
+                "Beijing",
+                "Bangkok"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Capital of USA?",
+            "options": [
+                "New York",
+                "Washington DC",
+                "Los Angeles",
+                "Chicago"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Capital of Germany?",
+            "options": [
+                "Berlin",
+                "Munich",
+                "Frankfurt",
+                "Hamburg"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Capital of Australia?",
+            "options": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Perth"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Capital of Canada?",
+            "options": [
+                "Toronto",
+                "Ottawa",
+                "Vancouver",
+                "Montreal"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Capital of Italy?",
+            "options": [
+                "Rome",
+                "Milan",
+                "Naples",
+                "Venice"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Capital of India?",
+            "options": [
+                "Mumbai",
+                "New Delhi",
+                "Bangalore",
+                "Kolkata"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Capital of Russia?",
+            "options": [
+                "Moscow",
+                "Saint Petersburg",
+                "Kazan",
+                "Sochi"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Capital of Brazil?",
+            "options": [
+                "Rio",
+                "Sao Paulo",
+                "Brasilia",
+                "Salvador"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Capital of Egypt?",
+            "options": [
+                "Cairo",
+                "Alexandria",
+                "Giza",
+                "Luxor"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Capital of Spain?",
+            "options": [
+                "Madrid",
+                "Barcelona",
+                "Seville",
+                "Valencia"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Capital of China?",
+            "options": [
+                "Shanghai",
+                "Beijing",
+                "Hong Kong",
+                "Guangzhou"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Capital of Mexico?",
+            "options": [
+                "Cancun",
+                "Guadalajara",
+                "Mexico City",
+                "Tijuana"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Capital of South Africa?",
+            "options": [
+                "Cape Town",
+                "Johannesburg",
+                "Pretoria",
+                "Durban"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Capital of Argentina?",
+            "options": [
+                "Buenos Aires",
+                "Cordoba",
+                "Rosario",
+                "Mendoza"
+            ],
+            "answer_index": 0
+        }
+    ]
+}

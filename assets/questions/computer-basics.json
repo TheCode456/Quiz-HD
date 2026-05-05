@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Computer Basics",
+        "level": "easy",
+        "genre": "Technology"
+    },
+    "questions": [
+        {
+            "question": "What does CPU stand for?",
+            "options": [
+                "Central Processing Unit",
+                "Computer Personal Unit",
+                "Central Power Unit",
+                "Control Processing Unit"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which language is used for web pages?",
+            "options": [
+                "Python",
+                "HTML",
+                "C++",
+                "Java"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is RAM?",
+            "options": [
+                "Storage",
+                "Memory",
+                "Processor",
+                "Software"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which is an operating system?",
+            "options": [
+                "Windows",
+                "Google",
+                "Python",
+                "Chrome"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "What is a mouse?",
+            "options": [
+                "Animal",
+                "Input device",
+                "Output device",
+                "Software"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which device is used to print documents?",
+            "options": [
+                "Scanner",
+                "Monitor",
+                "Printer",
+                "Keyboard"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which is used to point on screen?",
+            "options": [
+                "Mouse",
+                "Keyboard",
+                "Printer",
+                "Speaker"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which part stores data permanently?",
+            "options": [
+                "RAM",
+                "CPU",
+                "Hard Drive",
+                "Monitor"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is software?",
+            "options": [
+                "Programs",
+                "Hardware",
+                "Cables",
+                "Charger"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which is a web browser?",
+            "options": [
+                "Excel",
+                "Chrome",
+                "Word",
+                "Photoshop"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which key is used to delete text to the right?",
+            "options": [
+                "Backspace",
+                "Enter",
+                "Delete",
+                "Shift"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is a URL?",
+            "options": [
+                "Type of file",
+                "Web address",
+                "Email",
+                "Image"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which device displays output?",
+            "options": [
+                "Monitor",
+                "Keyboard",
+                "Mouse",
+                "Printer"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "What does GPU stand for?",
+            "options": [
+                "Graphics Processing Unit",
+                "General Purpose Unit",
+                "Graphics Power Unit",
+                "General Processing Utility"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which memory is volatile?",
+            "options": [
+                "SSD",
+                "HDD",
+                "RAM",
+                "ROM"
+            ],
+            "answer_index": 2
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Music",
+        "level": "easy",
+        "genre": "Music"
+    },
+    "questions": [
+        {
+            "question": "How many notes in music?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Instrument with keys?",
+            "options": [
+                "Guitar",
+                "Piano",
+                "Drums",
+                "Flute"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which is percussion?",
+            "options": [
+                "Drum",
+                "Violin",
+                "Flute",
+                "Guitar"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which is string instrument?",
+            "options": [
+                "Drum",
+                "Flute",
+                "Guitar",
+                "Trumpet"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Singer uses?",
+            "options": [
+                "Voice",
+                "Hands",
+                "Feet",
+                "Eyes"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "How many strings does a standard guitar have?",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which note is one octave above middle C?",
+            "options": [
+                "C",
+                "D",
+                "E",
+                "F"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "What is the symbol for a sharp note?",
+            "options": [
+                "b",
+                "#",
+                "%",
+                "&"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which instrument is brass?",
+            "options": [
+                "Violin",
+                "Trumpet",
+                "Piano",
+                "Flute"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is the name of a group of singers?",
+            "options": [
+                "Band",
+                "Choir",
+                "Orchestra",
+                "Duo"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which instrument is played with a bow?",
+            "options": [
+                "Piano",
+                "Drum",
+                "Violin",
+                "Guitar"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which music style is classical?",
+            "options": [
+                "Rock",
+                "Jazz",
+                "Beethoven",
+                "Hip Hop"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What does DJ stand for?",
+            "options": [
+                "Disc Jockey",
+                "Digital Jam",
+                "Dance Joy",
+                "Drum Jazz"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which instrument has black and white keys?",
+            "options": [
+                "Flute",
+                "Guitar",
+                "Piano",
+                "Saxophone"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which of these is a musical rest?",
+            "options": [
+                "Silence",
+                "Sound",
+                "Sing",
+                "Beat"
+            ],
+            "answer_index": 0
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Sports",
+        "level": "easy",
+        "genre": "Sports"
+    },
+    "questions": [
+        {
+            "question": "How many players in a football team?",
+            "options": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which sport uses a bat and ball?",
+            "options": [
+                "Football",
+                "Cricket",
+                "Hockey",
+                "Tennis"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Olympics held every?",
+            "options": [
+                "2 years",
+                "3 years",
+                "4 years",
+                "5 years"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which country hosts IPL?",
+            "options": [
+                "India",
+                "Australia",
+                "England",
+                "USA"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which sport uses racket?",
+            "options": [
+                "Tennis",
+                "Football",
+                "Basketball",
+                "Cricket"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which sport uses a hoop?",
+            "options": [
+                "Tennis",
+                "Basketball",
+                "Cricket",
+                "Soccer"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "How many players are on a basketball team?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which sport is also called football in the USA?",
+            "options": [
+                "Rugby",
+                "American Football",
+                "Soccer",
+                "Hockey"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which sport uses a puck?",
+            "options": [
+                "Tennis",
+                "Hockey",
+                "Basketball",
+                "Volleyball"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which event is part of the Olympics?",
+            "options": [
+                "Cricket",
+                "Baseball",
+                "Long Jump",
+                "Lacrosse"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which game uses a shuttlecock?",
+            "options": [
+                "Badminton",
+                "Tennis",
+                "Squash",
+                "Golf"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which sport is played on ice?",
+            "options": [
+                "Basketball",
+                "Cricket",
+                "Ice Hockey",
+                "Soccer"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which country invented football?",
+            "options": [
+                "India",
+                "England",
+                "Brazil",
+                "USA"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which sport uses a bat and a wicket?",
+            "options": [
+                "Baseball",
+                "Cricket",
+                "Golf",
+                "Tennis"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which sport is played in a pool?",
+            "options": [
+                "Water Polo",
+                "Basketball",
+                "Hockey",
+                "Tennis"
+            ],
+            "answer_index": 0
+        }
+    ]
+}

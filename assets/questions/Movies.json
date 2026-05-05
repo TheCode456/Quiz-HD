@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Movies",
+        "level": "easy",
+        "genre": "Entertainment"
+    },
+    "questions": [
+        {
+            "question": "Who plays Iron Man?",
+            "options": [
+                "Chris Evans",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Mark Ruffalo"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Frozen movie main character?",
+            "options": [
+                "Anna",
+                "Elsa",
+                "Olaf",
+                "Kristoff"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which movie has dinosaurs?",
+            "options": [
+                "Avatar",
+                "Jurassic Park",
+                "Titanic",
+                "Inception"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Harry Potter's school?",
+            "options": [
+                "Hogwarts",
+                "Oxford",
+                "Harvard",
+                "Cambridge"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Avatar director?",
+            "options": [
+                "James Cameron",
+                "Spielberg",
+                "Nolan",
+                "Scorsese"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Who directed the movie Titanic?",
+            "options": [
+                "James Cameron",
+                "Peter Jackson",
+                "Steven Spielberg",
+                "Ridley Scott"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which movie features a flying elephant?",
+            "options": [
+                "Dumbo",
+                "Aladdin",
+                "Finding Nemo",
+                "The Lion King"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which character says \"I am your father\"?",
+            "options": [
+                "Luke Skywalker",
+                "Yoda",
+                "Darth Vader",
+                "Han Solo"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which movie is about a toy cowboy named Woody?",
+            "options": [
+                "Toy Story",
+                "Cars",
+                "Monsters, Inc.",
+                "Ratatouille"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Who plays Spider-Man in MCU?",
+            "options": [
+                "Tom Holland",
+                "Andrew Garfield",
+                "Tobey Maguire",
+                "Chris Pratt"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which movie has a character named Jack Sparrow?",
+            "options": [
+                "The Matrix",
+                "Pirates of the Caribbean",
+                "Avatar",
+                "Gladiator"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which movie is about a wizard named Harry Potter?",
+            "options": [
+                "Fantastic Beasts",
+                "Harry Potter",
+                "The Hobbit",
+                "The Chronicles of Narnia"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which movie features a shark on the loose?",
+            "options": [
+                "Jaws",
+                "Jurassic Park",
+                "The Lion King",
+                "E.T."
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which movie is set on a ship named the Titanic?",
+            "options": [
+                "Titanic",
+                "Poseidon",
+                "Sea of Monsters",
+                "The Perfect Storm"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which character is green and has very big ears?",
+            "options": [
+                "Yoda",
+                "Shrek",
+                "Hulk",
+                "Dobby"
+            ],
+            "answer_index": 0
+        }
+    ]
+}

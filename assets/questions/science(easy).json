@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Basic Science",
+        "level": "easy",
+        "genre": "Science"
+    },
+    "questions": [
+        {
+            "question": "What planet is known as the Red Planet?",
+            "options": [
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Venus"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Water freezes at what temperature (\u00b0C)?",
+            "options": [
+                "0",
+                "10",
+                "50",
+                "100"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which gas do plants absorb?",
+            "options": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is H2O?",
+            "options": [
+                "Oxygen",
+                "Hydrogen",
+                "Water",
+                "Salt"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which organ pumps blood?",
+            "options": [
+                "Lungs",
+                "Brain",
+                "Heart",
+                "Liver"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which planet has rings?",
+            "options": [
+                "Mars",
+                "Saturn",
+                "Venus",
+                "Mercury"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What does a plant need to make food?",
+            "options": [
+                "Soil",
+                "Sunlight",
+                "Stone",
+                "Airplane"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which is a source of light?",
+            "options": [
+                "Moon",
+                "Sun",
+                "Rock",
+                "Cloud"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which sense do we use to smell?",
+            "options": [
+                "Eyes",
+                "Ears",
+                "Nose",
+                "Tongue"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What do bees make?",
+            "options": [
+                "Milk",
+                "Honey",
+                "Bread",
+                "Water"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is the center of an atom called?",
+            "options": [
+                "Electron",
+                "Proton",
+                "Nucleus",
+                "Neutron"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which is a gas we breathe out?",
+            "options": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Hydrogen",
+                "Nitrogen"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is the process of water turning into vapor?",
+            "options": [
+                "Freezing",
+                "Melting",
+                "Evaporation",
+                "Condensation"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which animal gives milk?",
+            "options": [
+                "Cow",
+                "Snake",
+                "Frog",
+                "Crocodile"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which planet is called the Blue Planet?",
+            "options": [
+                "Mars",
+                "Venus",
+                "Earth",
+                "Jupiter"
+            ],
+            "answer_index": 2
+        }
+    ]
+}

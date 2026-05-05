@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Animals",
+        "level": "easy",
+        "genre": "Biology"
+    },
+    "questions": [
+        {
+            "question": "Fastest land animal?",
+            "options": [
+                "Lion",
+                "Cheetah",
+                "Tiger",
+                "Leopard"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Largest bird?",
+            "options": [
+                "Eagle",
+                "Ostrich",
+                "Sparrow",
+                "Peacock"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal barks?",
+            "options": [
+                "Cat",
+                "Dog",
+                "Cow",
+                "Goat"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which is aquatic?",
+            "options": [
+                "Tiger",
+                "Shark",
+                "Elephant",
+                "Horse"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal has trunk?",
+            "options": [
+                "Lion",
+                "Elephant",
+                "Tiger",
+                "Dog"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal is known as the king of the jungle?",
+            "options": [
+                "Tiger",
+                "Lion",
+                "Elephant",
+                "Leopard"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal has black and white stripes?",
+            "options": [
+                "Zebra",
+                "Elephant",
+                "Giraffe",
+                "Hippo"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which animal is a marsupial?",
+            "options": [
+                "Kangaroo",
+                "Cow",
+                "Horse",
+                "Pig"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which animal lives in the Arctic?",
+            "options": [
+                "Penguin",
+                "Polar Bear",
+                "Camel",
+                "Lion"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal has a long neck?",
+            "options": [
+                "Elephant",
+                "Giraffe",
+                "Rhino",
+                "Zebra"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal lives in a hive?",
+            "options": [
+                "Ant",
+                "Spider",
+                "Bee",
+                "Frog"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which animal has a hump?",
+            "options": [
+                "Camel",
+                "Goat",
+                "Dog",
+                "Cat"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "Which animal is known for its pouch?",
+            "options": [
+                "Giraffe",
+                "Kangaroo",
+                "Elephant",
+                "Zebra"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "Which animal can swim?",
+            "options": [
+                "Rabbit",
+                "Tiger",
+                "Dolphin",
+                "Kangaroo"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Which animal is a reptile?",
+            "options": [
+                "Frog",
+                "Crocodile",
+                "Cat",
+                "Sheep"
+            ],
+            "answer_index": 1
+        }
+    ]
+}

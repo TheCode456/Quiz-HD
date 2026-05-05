@@ -1,0 +1,159 @@
+{
+    "set_info": {
+        "title": "Basic Math",
+        "level": "easy",
+        "genre": "Mathematics"
+    },
+    "questions": [
+        {
+            "question": "What is 5 + 7?",
+            "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is 9 \u00d7 3?",
+            "options": [
+                "18",
+                "21",
+                "27",
+                "30"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "Square of 4?",
+            "options": [
+                "8",
+                "12",
+                "16",
+                "20"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is 15 \u00f7 3?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is 10 - 6?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is 7 + 8?",
+            "options": [
+                "14",
+                "15",
+                "16",
+                "17"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is 12 - 5?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is 4 x 3?",
+            "options": [
+                "12",
+                "14",
+                "10",
+                "15"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "What is 20 \u00f7 4?",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "3"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is 3 + 6?",
+            "options": [
+                "8",
+                "9",
+                "10",
+                "11"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is 2 x 5?",
+            "options": [
+                "10",
+                "12",
+                "8",
+                "9"
+            ],
+            "answer_index": 0
+        },
+        {
+            "question": "What is 10 - 7?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "answer_index": 2
+        },
+        {
+            "question": "What is 8 + 2?",
+            "options": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is 6 \u00f7 2?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "answer_index": 1
+        },
+        {
+            "question": "What is 5 x 2?",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "answer_index": 3
+        }
+    ]
+}

@@ -21,7 +21,7 @@ from xpCalculator import convert_level,actual_xp,required_xp,xp_required
 import customtkinter as ctk
 from login import login
 from Quiz import Quiz
-from PIL import Image
+from PIL import Image,ImageTk
 from add_questions import add,upload
 from assets.leaderboard import show_leaderboard
 
@@ -37,6 +37,10 @@ root.geometry("1080x720")              # width x height
 root.minsize(810,540)                # minimum size
 root.resizable(False, False)       
 root.configure(bg="#16213E")
+try:
+    root.iconbitmap("assets/icon.ico")
+except:
+    print("Icon can't load properly")
 root.report_callback_exception = tkinter_exception_handler #check for any error and show properly.
 
 #  Center window on screen
